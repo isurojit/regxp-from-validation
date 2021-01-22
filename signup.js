@@ -158,7 +158,6 @@ function cnfshowPasswordFunction(e){
 //Password valid Indicator
 function passwordValidIndicator(e){
     const passwordText = password.value
-    console.log(passwordText);
     const reMustHave = /^(?=.*\d).{6,20}$/;
     const reOneNumeric = /(?=.*\d)/;
     const reOneUpperCase = /(?=.*[A-Z])/;
